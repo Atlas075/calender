@@ -14,101 +14,107 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script defer src="./assets/js/script.js"></script>
+    
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+
+  <!-- jumbotron section -->  
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead day"></p>
     </header>
 
+<!-- jumbotron section ends -->
+
+  <!-- Timeblocks section starts (a div container for each hour. changes need to be done to script.js also) -->
 
     <div class="container mt-5" id="hour-task"data-time="9" >
-      <!-- Timeblocks go here -->
       <div class="row " id="row" >
         <div class="col-md-1 hour " >9am</div>
-        <textarea class="col-md-10" data-text="9" id="task-sec"></textarea>
+        <textarea class="col-md-10" data-text="9" id="task-sec9"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
     </div>
 
-    <div class="container mt-5" id="hour-task" data-time="10">
-      <!-- Timeblocks go here -->
-      <div class="row" >
+
+    <div class="container mt-5" id="hour-task"data-time="10" >
+      <div class="row " id="row" >
         <div class="col-md-1 hour " >10am</div>
-        <textarea class="col-md-10" data-text="10"></textarea>
-        <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
+        <textarea class="col-md-10" data-text="10" id="task-sec10"></textarea>
+        <button class="col-md-1 btn saveBtn save-btn"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="11">
-      <!-- Timeblocks go here -->
       <div class="row" >
         <div class="col-md-1 hour " >11am</div>
-        <textarea class="col-md-10" data-text="11"></textarea>
+        <textarea class="col-md-10" data-text="11" id="task-sec11"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="12">
-      <!-- Timeblocks go here -->
       <div class="row" >
         <div class="col-md-1 hour " >12pm</div>
-        <textarea class="col-md-10" data-text="10" id="task-sec"></textarea>
+        <textarea class="col-md-10" data-text="10" id="task-sec12"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="13">
-      <!-- Timeblocks go here -->
       <div class="row " >
         <div class="col-md-1 hour " >1pm</div>
-        <textarea class="col-md-10" data-text="13"></textarea>
+        <textarea class="col-md-10" data-text="13" id="task-sec13"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="14">
-      <!-- Timeblocks go here -->
       <div class="row " >
         <div class="col-md-1 hour " >2pm</div>
-        <textarea class="col-md-10" data-text="14"></textarea>
+        <textarea class="col-md-10" data-text="14" id="task-sec14"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="15">
-      <!-- Timeblocks go here -->
       <div class="row " >
         <div class="col-md-1 hour " >3pm</div>
-        <textarea class="col-md-10" data-text="15"></textarea>
+        <textarea class="col-md-10" data-text="15" id="task-sec15"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="16">
-      <!-- Timeblocks go here -->
       <div class="row " >
         <div class="col-md-1 hour " >4pm</div>
-        <textarea class="col-md-10" data-text="16"></textarea>
+        <textarea class="col-md-10" data-text="16" id="task-sec16"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
+
 
     <div class="container mt-5" id="hour-task" data-time="17">
-      <!-- Timeblocks go here -->
       <div class="row " >
         <div class="col-md-1 hour " >5pm</div>
-        <textarea class="col-md-10" data-text="1"></textarea>
+        <textarea class="col-md-10" data-text="17" id="task-sec17"></textarea>
         <button class="col-md-1 btn saveBtn save-btn"><i class=" fa fa-floppy-disk"></i></button>
       </div>
     </div>
-
-
+<!-- Timeblocks section ends -->
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
+  <script src="./assets/js/script.js"></script>
 </html>
